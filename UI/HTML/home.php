@@ -6,7 +6,9 @@
     <link rel="stylesheet" href=".\UI\style\home.css">
     <title>Eazy Media</title>
 </head>
+<?php include 'header.php'; ?>
 <body>
     
 </body>
+<?php include 'footer.php'; ?>
 </html>
