@@ -1,0 +1,43 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+header{
+    margin: 0 auto;
+    height: 75px;
+    background-color: black;
+}
+
+p{
+    margin: 0px;
+}
+
+#logo{
+    float: left;
+    width: 52px;
+    height: 58px;
+    padding: 10px 0 10px 10px;
+
+}
+
+ul{
+    list-style: none;
+    color: white;
+    text-decoration: none;
+}
+
+li{
+    float: left;
+    z-index: 2;
+    color: white;
+    margin-left: 5%;
+    margin-top: 30px;
+    text-decoration: none;
+}
