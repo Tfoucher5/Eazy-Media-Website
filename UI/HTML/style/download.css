@@ -1,11 +1,15 @@
 body{
     padding: 0px;
     margin: 0px;
+    font-family: 'Asap', sans-serif;
+    font-weight: bold;
 }
 
-
-/* HEADER */
-
+a {
+    color: white;
+    outline: none;
+    text-decoration: none
+}
 
 .clearfix::after {
     content: "";
@@ -74,4 +78,31 @@ li{
 .navbar-item-login {
     color: white;
 
+}
+
+/* NAV HOVER */
+
+.navbar-item-home:hover {
+    color: purple;
+
+}
+
+.navbar-item-download:hover {
+    color: purple;
+}
+
+.navbar-item-legal:hover {
+    color: purple;
+}
+
+.navbar-item-faq:hover {
+    color: purple;
+}
+
+.navbar-item-profile:hover {
+    color: purple;
+}
+
+.navbar-item-login:hover {
+    color: purple;
 }

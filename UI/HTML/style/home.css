@@ -1,16 +1,15 @@
 body{
     padding: 0px;
     margin: 0px;
+    font-family: 'Asap', sans-serif;
+    font-weight: bold;
 }
 
-html{
-    padding: 0px;
-    margin: 0px;
+a {
+    color: white;
+    outline: none;
+    text-decoration: none
 }
-
-
-/* HEADER */
-
 
 .clearfix::after {
     content: "";
@@ -23,7 +22,6 @@ header{
     height: 75px;
     background-color: black;
     color: white;
-    padding-bottom: 10px;
 }
 
 p{
@@ -34,7 +32,7 @@ p{
     float: left;
     width: 52px;
     height: 58px;
-    padding: 10px 0 10px 10px;
+    padding: 10px 20px 10px 10px;
 
 }
 
@@ -48,7 +46,7 @@ li{
     float: left;
     z-index: 2;
     color: white;
-    margin-left: 5%;
+    margin-left: 2%;
     margin-top: 30px;
     text-decoration: none;
 }
@@ -80,4 +78,30 @@ li{
 .navbar-item-login {
     color: white;
 
+}
+
+/* NAV HOVER */
+
+.navbar-item-home:hover {
+    color: purple;
+}
+
+.navbar-item-download:hover {
+    color: purple;
+}
+
+.navbar-item-legal:hover {
+    color: purple;
+}
+
+.navbar-item-faq:hover {
+    color: purple;
+}
+
+.navbar-item-profile:hover {
+    color: purple;
+}
+
+.navbar-item-login:hover {
+    color: purple;
 }

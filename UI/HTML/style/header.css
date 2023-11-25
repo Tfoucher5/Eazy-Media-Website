@@ -6,7 +6,10 @@ body{
 
 /* HEADER */
 
-
+a {
+    color: white;
+    outline: none;
+}
 .clearfix::after {
     content: "";
     clear: both;
