@@ -3,6 +3,7 @@ body{
     margin: 0px;
     font-family: 'Asap', sans-serif;
     font-weight: bold;
+    background-color: black;
 }
 
 a {
@@ -105,4 +106,76 @@ li{
 
 .navbar-item-login:hover {
     color: purple;
+}
+
+/*Background*/
+
+.rond1  {
+    background: linear-gradient(266.814deg, rgb(175, 52, 237) 15.5731%, rgb(89, 52, 236) 78.438%);
+    border-radius: 100%;
+    filter: blur(12.5px);
+    flex: 0 0 auto;
+    height: 264px;
+    left: -68px;
+    position: absolute;
+    top: 180px;
+    width: 264px;
+}
+
+.rond2  {
+    background: linear-gradient(266.814deg, rgb(175, 52, 237) 15.5731%, rgb(89, 52, 236) 78.438%);
+    border-radius: 100%;
+    filter: blur(12.5px);
+    flex: 0 0 auto;
+    height: 133px;
+    left: 755px;
+    position: absolute;
+    top: 113px;
+    transform: rotate(71deg);
+    width: 133px;
+}
+.rond3  {
+    background: linear-gradient(266.814deg, rgb(175, 52, 237) 15.5731%, rgb(89, 52, 236) 78.438%);
+    border-radius: 100%;
+    filter: blur(12.5px);
+    flex: 0 0 auto;
+    height: 372px;
+    position: absolute;
+    right: -232px;
+    top: 360px;
+    transform: rotate(-43deg);
+    width: 372px;
+}
+
+.rond4  {
+    background: linear-gradient(266.814deg, rgb(175, 52, 237) 15.5731%, rgb(89, 52, 236) 78.438%);
+    border-radius: 100%;
+    filter: blur(12.5px);
+    flex: 0 0 auto;
+    height: 197px;
+    left: 63px;
+    position: absolute;
+    top: 656px;
+    transform: rotate(71deg);
+    width: 197px;
+}
+
+.rond5  {
+    background: linear-gradient(266.814deg, rgb(175, 52, 237) 15.5731%, rgb(89, 52, 236) 78.438%);
+    border-radius: 100%;
+    filter: blur(12.5px);
+    flex: 0 0 auto;
+    height: 109px;
+    left: 698px;
+    position: absolute;
+    top: 756px;
+    transform: rotate(71deg);
+    width: 109px;
+}
+
+/*Footer*/
+
+footer  {
+    margin-top: 850px;
+    margin-bottom: 70px;    
 }
